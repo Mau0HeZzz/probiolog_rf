@@ -5,6 +5,8 @@ $APPLICATION->SetTitle("Пробиотик для&nbsp;микрофлоры ки
 
 use Bitrix\Main\Page\Asset;
 
+
+
 Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/swiper.min.js");
 Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/swiper.init.js");
 Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/reviews.js");

@@ -1,5 +1,5 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
-<? $APPLICATION->IncludeComponent(
+<? /*$APPLICATION->IncludeComponent(
     "olegpro:olegpro.csscompiler",
     "olegpro",
     array(
@@ -17,7 +17,7 @@
     array(
         "HIDE_ICONS" => "Y"
     )
-); ?>
+);*/ ?>
 <? $curPage = $APPLICATION->GetCurPage(true); ?>
 <!DOCTYPE html>
 <html lang="ru" prefix="og: https://ogp.me/ns#">
@@ -63,7 +63,26 @@
 
         use Bitrix\Main\Page\Asset;
 
-        Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/mystyle.css");
+        // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/mystyle.css");
+        Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/animations.css");
+        Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/common.css");
+        Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/swiper.css");
+        if($APPLICATION->GetCurPage() == '/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/home.css");
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/reviews.css");
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/freshnews.css");
+        elseif($APPLICATION->GetCurPage() == '/chto-takoe-srk/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/chtotakoesrk.css");
+        elseif($APPLICATION->GetCurPage() == '/kviz/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/kviz.css");
+        elseif($APPLICATION->GetCurPage() == '/poleznye-sovety/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/poleznyesovety.css");
+        elseif($APPLICATION->GetCurPage() == '/probiolog/' or $APPLICATION->GetCurPage() == '/probiolog-forte/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/product.css");
+        elseif($APPLICATION->GetCurPage() == '/probiolog-srk/'): 
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/product.css");
+          Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/decomposition/chtotakoesrk.css");
+        endif;
         Asset::getInstance()->addCss(SITE_TEMPLATE_PATH."/css/articles-new.css");
 
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/jquery-3.5.1.min.js");
@@ -77,7 +96,6 @@
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/jquery.activity.js");
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/event.js");
 	?>
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> -->
 </head>
 
 <?

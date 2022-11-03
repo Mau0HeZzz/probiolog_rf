@@ -1,0 +1,1766 @@
+
+@media(max-width: 1400px){
+  .aptsale__container .first__block{
+    margin-top: 20px;
+  }
+  .aptsale__container .aptsale__row-title{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .aptsale__container .aptsale__row-preview{
+    font-size: 22px;
+    line-height: 28px
+  }
+  .aptsale__container .aptsale__row-btn{
+    height: 45px;
+    font-size: 18px;
+  }
+  .aptsale__container .aptsale__img{
+    width: 140px;
+    height: auto;
+    margin-left: 40px;
+  }
+  .aptsale__container .aptsale__row{
+    padding: 15px;
+  }
+  .aptsale__container .first__block {
+    margin-top: -20px;
+  }
+  .aptsale__container .aptsale {
+    max-width: 497px;
+    margin-top: -80px;
+  }
+}
+
+.aptsale{
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 26px rgba(103, 103, 103, 0.25);
+  border-radius: 15px;
+  position: relative;
+  padding: 5px 25px;
+  max-width: 635px;
+  margin-top: -50px;
+  display: none;
+}
+.aptsale:hover{
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: 0.3s
+}
+.aptsale__row-close{
+  position: absolute;
+  font-size: 56px;
+  transform: rotate(45deg);
+  color: #5F5F5F;
+  right: 7px;
+  top: -18px;
+  transition: 0.3s
+}
+.aptsale__row-close:hover{
+  cursor: pointer;
+  opacity: 0.7
+}
+.aptsale__row{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 15px 18px 15px;
+}
+.aptsale__row-title{
+  color: #DF0100;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30.5267px;
+  line-height: 37px;
+}
+.aptsale__row-preview{
+  font-weight: bold;
+  font-size: 30.5267px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #008044;
+  flex-grow: 2
+
+}
+.aptsale__row-btn{
+  padding: 9px 34px;
+  text-align: center;
+  height: 56px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #DF0100;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s
+}
+.aptsale__row-btn:hover{
+  opacity: 0.7;
+  text-decoration: none;
+  color: #fff
+}
+.first__block-descr-rec-active{
+  z-index: 2
+}
+@media(max-width: 992px){
+  .aptsale__container .aptsale {
+    max-width: 435px;
+  }
+  .aptsale__container .aptsale__img {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px){
+  .aptsale__container .first__block-descr-probio1 {
+    margin-top: 65% !important;
+  }
+  .aptsale__container .first__block-right-probio {
+    top: 88%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .aptsale__container .aptsale__img{
+    width: 100px;
+    height: 105px;
+  }
+  .aptsale__container .aptsale__row-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .aptsale__container .aptsale__row-preview {
+      font-size: 16px;
+      line-height: 22px;
+  }
+  .aptsale__container .aptsale__row-btn {
+      height: 35px;
+      font-size: 14px;
+      padding: 4px 20px;
+  }
+  .aptsale__container .aptsale__row {
+      padding: 5px 10px;
+  }
+  .aptsale__row-close {
+      font-size: 38px;
+      right: 7px;
+      top: -11px;
+  }
+  .aptsale__container .aptsale {
+      margin-top: -117px;
+  }
+  .aptsale__container{
+    padding-top: 20px;
+  }
+  .first__block-stamp-probio{
+    top: -25%;
+  }
+  .aptsale__container .first__block-descr-probio1 {
+    margin-top: 54% !important;
+  }
+  .aptsale__container .aptsale {
+    margin-top: -40px;
+  }
+  .aptsale__container .first__block-right {
+    width: 74% !important;
+    display: flex;
+    justify-content:center;align-items: center;
+  }
+  .aptsale__container .first__block-right .mauohezBlocks {
+    display: flex;
+    justify-content:center;align-items: center;
+  }
+}
+@media(max-width: 576px){
+  .aptsale__container .aptsale {
+    margin-top: -73px;
+  }
+  .aptsale__container .first__block-descr-probio1 {
+    margin-top: 72% !important;
+  }
+}
+@media(max-width: 425px){
+  .aptsale__container .first__block-descr-probio1 {
+    margin-top: 61% !important;
+  }
+  .aptsale__container .aptsale {
+    margin-top: -100px;
+  }
+}
+@media(max-width: 410px){
+  .aptsale__container .aptsale {
+    margin-top: -123px;
+  }
+}
+@media(max-width: 374px){
+  .aptsale__container .aptsale__row {
+    padding: 2px 10px;
+  }
+  .aptsale__container .aptsale__row-title {
+      font-size: 14px;
+      line-height: 17px;
+  }
+  .aptsale__container .aptsale__row-preview {
+      font-size: 14px;
+      line-height: 17px;
+  }
+  .aptsale__container .aptsale__row-btn {
+      height: 25px;
+      font-size: 14px;
+      padding: 4px 20px;
+  }
+  .aptsale__container .aptsale {
+      margin-top: -105px;
+  }
+  .aptsale__container .aptsale__img{
+    display: none;
+  }
+  .aptsale__container .first__block li {
+      margin-bottom: 0px;
+      font-size: 16px;
+  }
+  .aptsale__container .first__block-descr-probio1 {
+      margin-top: 63% !important;
+  }
+  .aptsale__container .first__block-right-probio {
+    top: 85%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media(max-width: 338px){
+  .aptsale__container .aptsale {
+    margin-top: -135px;
+  }
+  .aptsale__container .first__block-right-probio {
+    top: 83%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media(max-width: 336px){
+  .aptsale__container .first__block-right-probio {
+    top: 92%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media(max-width: 332px){
+  .aptsale__container .first__block-right-probio {
+    top: 110%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media(max-width: 792px){
+  .aptsale__container-forte .first__block-descr{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 425px){
+  .aptsale__container-forte .first__block-descr-probio1 {
+      margin-top: 52%!important;
+  }
+}
+.aptsale__container-srk .aptsale{
+  margin-top: -140px;
+}
+@media (max-width: 1241px){
+  .aptsale__container-srk .first__block-descr{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px){
+  .aptsale__container-srk .aptsale {
+    margin-top: -95px;
+  }
+}
+@media (max-width: 767px){
+  .aptsale__container-srk .first__block-descr-probio1 {
+    margin-top: 58%!important;
+  }
+}
+@media (max-width: 575px){
+  .aptsale__container-srk .first__block-descr-probio1 {
+    margin-top: 67%!important;
+  }
+  .aptsale__container-srk .aptsale {
+    margin-top: -115px;
+  }
+}
+@media (max-width: 425px){
+  .aptsale__container-srk .first__block-descr-probio1 {
+    margin-top: 53%!important;
+  }
+  .aptsale__container-srk .aptsale {
+    margin-top: -155px;
+  }
+  .forte {
+    min-height: 700px!important;
+  }
+  .aptsale__container-forte .aptsale {
+    margin-top: -90px;
+  }
+  .probiolog {
+    min-height: 700px!important;
+  }
+}
+@media (max-width: 374px){
+  .aptsale__container-srk .aptsale {
+    margin-top: -205px;
+  }
+}
+
+.aptsale__container .mauohezBlocks .image-mauohezBlocks__reg_right {
+  font-size: calc(4px + 0.3125 * (100vw - 320px) / 92.9375);
+}
+
+.aptsale__container .mauohezBlocks .image-mauohezBlocks__stamp_shadow {
+  top: -10%;
+  right: -10%;
+}
+
+.first__block {
+  position: relative;
+  height: 754px;
+  margin-top: 90px;
+}
+.first__block-item {
+  height: 100%;
+}
+.first__block-left {
+  display: flex;
+  flex-direction: column;
+  width: 669px;
+  height: 100%;
+}
+.first__block-right {
+  position: absolute;
+  right: 87px;
+  top: 28%;
+  width: 40%;
+}
+.first__block-right-probio {
+  width: 39%;
+  top: 24%;
+}
+.first__block-right-srk {
+  right: 0%;
+  top: 33%;
+  width: 39%;
+}
+.first__block-stamp {
+  position: absolute;
+  top: -35%;
+  right: -15%;
+  width: 41%;
+}
+.first__block-stamp__img {
+  width: 100%;
+}
+.first__block-stamp-probio {
+  width: 38%;
+  top: -25%;
+  right: -8%;
+}
+.first__block ul {
+  padding-left: 19px;
+}
+.first__block li {
+  font-size: 20px;
+  color: #fff5f3;
+  margin-bottom: 15px;
+}
+.first__block-descr {
+  width: 95%;
+  height: fit-content;
+  background: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 18px 34px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #313131;
+  margin-top: 102px;
+}
+.first__block-descr-probio {
+  width: 100%;
+}
+.first__block .first__img {
+  width: 100%;
+}
+.first__block-img {
+  width: 100%;
+}
+@media (max-width: 1800px) {
+  .first__block {
+      height: 633px;
+  }
+}
+@media (max-width: 1700px) {
+  .first__block-descr-srk {
+      margin-top: 31px;
+      font-size: 16px;
+  }
+}
+@media (max-width: 1600px) {
+  .first__block {
+      height: 100%;
+  }
+  .first__block-right-probio {
+      right: -2%;
+  }
+  .first__block-right-srk {
+      right: 5%;
+      top: 41%;
+      width: 34%;
+  }
+}
+@media (max-width: 1400px) {
+  .first__block {
+      height: 393px;
+  }
+  .first__block-right-probio {
+      right: 4%;
+      width: 31%;
+      top: 9%;
+  }
+  .first__block-right-srk {
+      top: 22%;
+      width: 30%;
+  }
+  .first__block-descr {
+      padding: 6px 28px;
+      margin-top: 10px;
+  }
+  .first__block-descr-probio {
+      width: 82%;
+      padding: 10px 16px;
+      margin-top: 5px;
+      font-size: 16px;
+  }
+  .first__block-item {
+      height: 61%;
+  }
+  .first__block-left-srk {
+      width: 64%;
+  }
+}
+@media (max-width: 1199px) {
+  .first__block {
+      height: 348px;
+      margin-top: 29px;
+  }
+  .first__block-left {
+      width: 50%;
+  }
+  .first__block-left-srk {
+      width: 60%;
+  }
+  .first__block li {
+      margin-bottom: 5px;
+  }
+  .first__block-descr-srk {
+      font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .first__block {
+      height: 298px;
+      margin-top: 0px;
+  }
+  .first__block-left {
+      width: 62%;
+  }
+  .first__block-right-srk {
+      top: 33%;
+  }
+  .first__block li {
+      margin-bottom: 0px;
+      font-size: 18px;
+  }
+  .first__block-descr-probio {
+      font-size: 15px;
+      width: 73%;
+      padding: 5px 10px;
+      margin-top: 0px;
+  }
+  .first__block-descr-srk {
+      font-size: 13px;
+  }
+  .first__block-srk {
+      height: 285px;
+  }
+  .first__block-srk li {
+      font-size: 16px;
+  }
+}
+@media (max-width: 850px) {
+  .first__block {
+      height: 314px;
+  }
+}
+@media (max-width: 767px) {
+  .first__block-right {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 90%;
+  }
+  .first__block-right-probio {
+      width: 44%;
+  }
+  .first__block-right-srk {
+      width: 47%;
+  }
+  .first__block-left {
+      width: 100%;
+  }
+  .first__block-descr-probio {
+      display: block;
+      margin: 0 auto;
+      margin-top: 57%;
+      text-align: center;
+  }
+  .first__block-descr-srk {
+      display: block;
+      margin: 0 auto;
+      margin-top: 57%;
+      text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .first__block {
+      height: 270px;
+      margin-top: 20px;
+  }
+  .first__block-right-probio {
+      width: 60%;
+  }
+  .first__block-right-srk {
+      width: 58%;
+      top: 98%;
+  }
+  .first__block-descr-probio {
+      margin-top: 83%;
+      font-size: 13px;
+      width: 83%;
+  }
+  .first__block-descr-srk {
+      margin-top: 72%;
+  }
+  .first__block-stamp {
+      top: -26%;
+  }
+}
+@media (max-width: 550px) {
+  .first__block-right-probio {
+      top: 106%;
+  }
+}
+
+.first__block-descr-rec {
+  height: fit-content;
+  background: #fff;
+  box-shadow: 0px 4px 16px #000;
+  padding: 18px 34px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #313131;
+  visibility: hidden;
+  width: 95%;
+}
+.first__block-descr-rec ul li {
+  list-style-type: none;
+}
+.first__block-descr-rec ul li a {
+  color: #313131;
+  text-decoration: none;
+  font-size: 18px;
+}
+.first__block-descr-rec-active {
+  visibility: visible;
+}
+
+@media screen and (max-width: 1440px) {
+  .first__block-descr-rec ul li a {
+      font-size: 16px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .first__block-descr-rec ul li a {
+      font-size: 14px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first__block-descr-rec ul li a {
+      font-size: 13px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first__block-descr-rec {
+      margin: 0 auto;
+      z-index: 1;
+  }
+}
+
+.first__block-descr2 {
+  width: 95% !important;
+}
+@media screen and (min-width: 768px) {
+  .first__block-descr-rec2 {
+      margin: 0;
+  }
+}
+.first__block-descr {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .products-item_title {
+      width: 230px;
+  }
+  .first__img {
+      width: 80% !important;
+  }
+  .first__block-descr-probio {
+      margin-top: 70% !important;
+  }
+  .first__block-descr-srk {
+      margin-top: 60% !important;
+  }
+  .forte {
+      min-height: 620px !important;
+  }
+  .probiolog {
+      min-height: 630px !important;
+  }
+  .slider__img {
+      width: 70% !important;
+      max-height: 180px;
+  }
+  .slider-stamp_second,
+  .slider-stamp_third {
+      right: 0% !important;
+      top: 41% !important;
+  }
+  .slider__second-down {
+      bottom: 5% !important;
+      right: 63% !important;
+  }
+  .slider__third-down {
+      bottom: 5% !important;
+      right: 63% !important;
+  }
+  .slider__right-srk {
+      top: 60% !important;
+  }
+  .slider-stamp_four {
+      right: 8% !important;
+  }
+  .slider__right-first {
+      display: flex;
+      justify-content: center;
+  }
+  .slider__right {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .diagrammprobio_up-probiolog {
+      height: 530px !important;
+  }
+  .diagrammprobio_down-probiolog {
+      height: 530px !important;
+  }
+  .diagrammprobio_up-forte {
+      height: 540px !important;
+      margin-bottom: 150px !important;
+  }
+  .diagrammprobio_up-forte:after {
+      top: 67% !important;
+      height: 460px !important;
+  }
+  .diagrammprobio_down-forte:after {
+      top: 60% !important;
+  }
+  .diagrammprobio_down-forte {
+      height: 530px !important;
+  }
+}
+
+.probiolog {
+  min-height: 932px;
+  background: url(/bitrix/templates/probiolog/img/probiolog-bg.jpg) 0 0/100% 100% no-repeat;
+  background-color: #fdfdfd;
+}
+@media (max-width: 1800px) {
+  .probiolog {
+      min-height: 835px;
+  }
+}
+@media (max-width: 1700px) {
+  .probiolog {
+      min-height: 780px;
+  }
+}
+@media (max-width: 1400px) {
+  .probiolog {
+      min-height: 616px;
+  }
+}
+@media (max-width: 1199px) {
+  .probiolog {
+      min-height: 491px;
+  }
+}
+@media (max-width: 991px) {
+  .probiolog {
+      min-height: 406px;
+  }
+}
+@media (max-width: 767px) {
+  .probiolog {
+      background: radial-gradient(85.38% 57.46% at 43.85% 72.16%, #73b423 0%, #6db223 15.55%, #66ac25 29.96%, #5ea626 47.62%, #57a22b 61.52%, #4c9a2c 74.12%, #41912e 85.27%, #398f33 100%);
+      min-height: 815px;
+  }
+}
+@media (max-width: 575px) {
+  .probiolog {
+      min-height: 760px;
+  }
+}
+@media (max-width: 480px) {
+  .probiolog {
+      min-height: 700px;
+  }
+}
+@media (max-width: 425px){
+  .probiolog {
+      min-height: 630px !important;
+  }
+}
+
+.probio {
+  min-height: 1073px;
+  background: #fdfdfd;
+  padding: 157px 0 220px 0;
+}
+.probio__wrapp {
+  display: flex;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+}
+.probio-left {
+  background: #6bc594;
+  padding: 123px 94px;
+  border-radius: 5px 0px 0px 5px;
+}
+.probio-left_forte {
+  background: #ff6962;
+}
+.probio-right {
+  background: #fff;
+  border-radius: 5px;
+  padding: 80px 166px 77px 64px;
+}
+.probio-title {
+  font-weight: 700;
+  font-size: 26px;
+  color: #5a5858;
+  margin-bottom: 25px;
+}
+.probio ul {
+  margin-bottom: 0;
+}
+.probio li {
+  font-weight: 500;
+  font-size: 20px;
+  color: #7c7c7c;
+  margin-bottom: 12px;
+}
+.probio__descr {
+  font-weight: 500;
+  font-size: 20px;
+  color: #5a5858;
+  margin-bottom: 32px;
+}
+.probio-strong {
+  font-weight: 700;
+}
+@media (max-width: 1600px) {
+  .probio-right {
+      padding-right: 70px;
+  }
+}
+@media (max-width: 1400px) {
+  .probio-left {
+      width: 100%;
+  }
+  .probio-left_forte {
+      width: 100%;
+  }
+  .probio__img {
+      width: 100%;
+  }
+  .probio li {
+      font-size: 18px;
+  }
+}
+@media (max-width: 1300px) {
+  .probio {
+      padding-top: 100px;
+  }
+}
+@media (max-width: 1199px) {
+  .probio {
+      min-height: 1007px;
+  }
+  .probio-right {
+      padding: 30px 40px 30px 18px;
+  }
+  .probio-left {
+      padding: 123px 40px;
+  }
+  .probio-left_forte {
+      padding: 123px 94px;
+  }
+}
+@media (max-width: 991px) {
+  .probio {
+      min-height: 765px;
+      padding-bottom: 100px;
+  }
+  .probio li {
+      font-size: 16px;
+  }
+  .probio-left {
+      padding: 92px 26px;
+  }
+  .probio-right {
+      padding-top: 50px;
+  }
+  .probio li {
+      line-height: 130%;
+  }
+}
+@media (max-width: 850px) {
+  .probio {
+      padding-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .probio {
+      padding-top: 0px;
+  }
+  .probio__wrapp {
+      flex-direction: column;
+      box-shadow: none;
+  }
+  .probio-left {
+      border-radius: 0;
+      padding: 80px 198px;
+      width: 100vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+  }
+  .probio-right {
+      background: none;
+  }
+}
+@media (max-width: 630px) {
+  .probio-left {
+      padding: 50px 178px;
+  }
+}
+@media (max-width: 575px) {
+  .probio {
+      padding-bottom: 50px;
+  }
+  .probio-left {
+      padding: 81px 124px;
+  }
+  .probio-right {
+      padding: 30px 40px 0px 0px;
+  }
+}
+@media (max-width: 470px) {
+  .probio-left {
+      padding: 50px 99px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .probio-right {
+      padding: 30px 0px 0px 0px !important;
+  }
+}
+
+@media (min-width:426px){
+  .probio{
+    padding: 90px 0 90px 0 !important;
+  }
+}
+
+
+
+.animation {
+  min-height: 1504px;
+  padding: 0 0 220px 0;
+  background: #fdfdfd;
+}
+.animation-descr {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5858;
+  margin-bottom: 18px;
+}
+.animation-descr:last-child {
+  margin-bottom: 0;
+}
+.animation__img {
+  margin-bottom: 67px;
+  width: 100%;
+}
+@media (max-width: 1500px) {
+  .animation {
+      min-height: 1400px;
+  }
+}
+@media (max-width: 1199px) {
+  .animation {
+      min-height: 1325px;
+  }
+}
+@media (max-width: 991px) {
+  .animation {
+      min-height: 1012px;
+      padding-bottom: 100px;
+  }
+  .animation-descr {
+      font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .animation {
+      min-height: 895px;
+      padding-bottom: 50px;
+  }
+  .animation__img {
+      margin-bottom: 30px;
+  }
+}
+@media (min-width:426px){
+  .animation{
+    padding-bottom: 90px !important;
+    min-height: auto !important;
+  }
+}
+
+.diagrammprobio {
+  min-height: 2438px;
+  padding: 0 0 220px 0;
+  background: #fdfdfd;
+}
+.diagrammprobio__wrapp {
+  margin-bottom: 220px;
+}
+.diagrammprobio-descr {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5a5858;
+  margin-left: 51px;
+}
+.diagrammprobio-descr_mr112 {
+  margin: 0 80px 0 0;
+}
+.diagrammprobio-descr_mr50 {
+  margin: 0 50px 0 0;
+}
+.diagrammprobio_up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+.diagrammprobio_down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.diagrammprobio-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5858;
+  margin-bottom: 19px;
+}
+.diagrammprobio-text_mb131 {
+  margin-bottom: 131px;
+}
+.diagrammprobio__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 110px;
+}
+.diagrammprobio__left-descr {
+  text-align: center;
+  margin-top: 13px;
+}
+.diagrammprobio__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.diagrammprobio__right-descr {
+  text-align: center;
+  margin-top: 13px;
+}
+.diagrammprobio li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5858;
+  margin-bottom: 20px;
+}
+.diagrammprobio__items {
+  margin: 58px 0;
+  display: flex;
+  justify-content: center;
+}
+.diagrammprobio-forte {
+  margin-bottom: 12px;
+}
+.diagrammprobio-forte_descr {
+  margin-bottom: 20px;
+}
+.diagrammprobio-forte_descr:before {
+  content: "\2022";
+  font-size: 30px;
+  color: #5a5858;
+  margin-right: 20px;
+}
+.diagrammprobio .strong {
+  font-weight: 700;
+}
+
+@media (max-width: 1600px) {
+  .diagrammprobio_up {
+      width: 77%;
+  }
+  .diagrammprobio__img {
+      width: 100%;
+  }
+  .diagrammprobio_down {
+      width: 77%;
+  }
+  .diagrammprobio-forte_descr:before {
+      margin-right: 5px;
+  }
+  .diagrammprobio-descr {
+      line-height: 110%;
+  }
+}
+@media (max-width: 1400px) {
+  .diagrammprobio-descr {
+      font-size: 18px;
+      line-height: 120%;
+  }
+}
+@media (max-width: 1199px) {
+  .diagrammprobio__img {
+      width: 96%;
+  }
+  .diagrammprobio_up {
+      margin-bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .diagrammprobio {
+      padding-bottom: 100px;
+  }
+  .diagrammprobio-descr {
+      margin-left: 28px;
+      font-size: 14px;
+  }
+  .diagrammprobio-descr_mr50 {
+      margin-left: 0;
+      margin-right: 28px;
+  }
+  .diagrammprobio__wrapp {
+      margin-bottom: 100px;
+  }
+  .diagrammprobio-text_mb131 {
+      margin-bottom: 100px;
+  }
+  .mechanism__left {
+      font-size: 18px;
+  }
+  .mechanism__right {
+      font-size: 18px;
+  }
+}
+
+.mechanism__wrapp {
+  display: flex;
+  justify-content: center;
+}
+.mechanism__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5858;
+  width: 209px;
+}
+.mechanism__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5858;
+  width: 209px;
+}
+.mechanism__img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .diagrammprobio_up {
+      flex-direction: column;
+      align-items: end;
+      width: 100%;
+  }
+  .diagrammprobio_down {
+      flex-direction: column-reverse;
+      align-items: end;
+      width: 100%;
+  }
+  .diagrammprobio-descr {
+      font-size: 16px;
+      margin-left: 0;
+      width: 80%;
+      margin-top: 20px;
+  }
+  .diagrammprobio-descr_mr50 {
+      margin-right: 0;
+  }
+  .diagrammprobio__img {
+      width: 100%;
+  }
+  .diagrammprobio-forte_descr {
+      margin-bottom: 5px;
+  }
+  .mechanism__left {
+      font-size: 16px;
+  }
+  .mechanism__right {
+      font-size: 16px;
+  }
+}
+@media (max-width: 630px) {
+  .mechanism__left,
+  .mechanism__right {
+      font-size: 15px;
+      line-height: 120%;
+  }
+}
+@media (max-width: 575px) {
+  .diagrammprobio__wrapp {
+      margin-bottom: 50px;
+  }
+  .diagrammprobio-text {
+      font-size: 18px;
+  }
+  .diagrammprobio-text_mb131 {
+      margin-bottom: 50px;
+  }
+  .diagrammprobio li {
+      font-size: 18px;
+  }
+  .diagrammprobio__items {
+      margin: 50px 0;
+      justify-content: space-between;
+  }
+  .diagrammprobio__left {
+      margin-right: 0;
+      font-size: 12px;
+  }
+  .diagrammprobio__left-img {
+      width: 83%;
+  }
+  .diagrammprobio__right {
+      font-size: 12px;
+  }
+  .diagrammprobio__right-img {
+      width: 60%;
+  }
+  .diagrammprobio__img {
+      display: none;
+  }
+  .diagrammprobio_up-probiolog {
+      margin-bottom: 50px;
+      width: 100%;
+      height: 630px;
+      position: relative;
+  }
+  .diagrammprobio_up-probiolog:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      height: 521px;
+      width: 396px;
+      background: url(/bitrix/templates/probiolog/img/diagram-probiolog1.svg) no-repeat;
+  }
+  .diagrammprobio_down-probiolog {
+      width: 100%;
+      height: 630px;
+      position: relative;
+  }
+  .diagrammprobio_down-probiolog:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      height: 521px;
+      width: 396px;
+      background: url(/bitrix/templates/probiolog/img/diagram-probiolog2.svg) no-repeat;
+  }
+  .diagrammprobio_up-forte {
+      margin-bottom: 50px;
+      width: 100%;
+      height: 740px;
+      position: relative;
+  }
+  .diagrammprobio_up-forte:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      height: 521px;
+      width: 396px;
+      background: url(/bitrix/templates/probiolog/img/diagram-forte1.svg) no-repeat;
+  }
+  .diagrammprobio_down-forte {
+      width: 100%;
+      height: 630px;
+      position: relative;
+  }
+  .diagrammprobio_down-forte:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      height: 521px;
+      width: 396px;
+      background: url(/bitrix/templates/probiolog/img/diagram-forte2.svg) no-repeat;
+  }
+  .diagrammprobio-descr {
+      margin-top: 0;
+  }
+  .diagrammprobio-descr_mr50 {
+      position: absolute;
+      top: 0;
+  }
+  .mechanism__left,
+  .mechanism__right {
+      font-size: 10px;
+  }
+}
+.forte {
+  min-height: 932px;
+  background: url(/bitrix/templates/probiolog/img/forte-bg.jpg) 0 0/100% 100% no-repeat;
+  background-color: #fdfdfd;
+}
+@media (max-width: 1800px) {
+  .forte {
+      min-height: 835px;
+  }
+}
+@media (max-width: 1700px) {
+  .forte {
+      min-height: 780px;
+  }
+}
+@media (max-width: 1400px) {
+  .forte {
+      min-height: 616px;
+  }
+}
+@media (max-width: 1199px) {
+  .forte {
+      min-height: 491px;
+  }
+}
+@media (max-width: 991px) {
+  .forte {
+      min-height: 406px;
+  }
+}
+@media (max-width: 767px) {
+  .forte {
+      background: linear-gradient(251.93deg, #a61a20 26.82%, #f23c22 96.48%);
+      min-height: 815px;
+  }
+}
+@media (max-width: 575px) {
+  .forte {
+      min-height: 760px;
+  }
+}
+@media (max-width: 480px) {
+  .forte {
+      min-height: 720px;
+  }
+}
+
+@media (max-width: 425px){
+  .diagrammprobio_up-probiolog {
+      height: 530px !important;
+  }
+  .diagrammprobio_down-probiolog {
+      height: 530px !important;
+  }
+  .diagrammprobio_up-forte {
+      height: 540px !important;
+      margin-bottom: 150px !important;
+  }
+  .diagrammprobio_up-forte:after {
+      top: 67% !important;
+      height: 460px !important;
+  }
+  .diagrammprobio_down-forte:after {
+      top: 60% !important;
+  }
+  .diagrammprobio_down-forte {
+      height: 530px !important;
+  }
+  .forte {
+      min-height: 620px !important;
+  }
+}
+@media (min-width:426px){
+  .diagrammprobio__wrapp{
+    margin-bottom: 90px !important;
+  }
+  .diagrammprobio{
+    padding-bottom: 90px !important;
+  }
+}
+@media (max-width: 500px){
+  .diagrammprobio{
+    padding-bottom: 50px !important;
+  }
+  .diagrammprobio_up-forte{
+        margin-bottom: 110px !important;
+  }
+}
+@media (min-width:426px){
+  .properties{
+    padding: 90px 0 90px 0 !important;
+  }
+  .first__block-descr-probio {
+      margin-top: 70% !important;
+  }
+  .first__block-descr-srk {
+      margin-top: 60% !important;
+  }
+}
+
+.srk {
+  min-height: 932px;
+  background: url(/bitrix/templates/probiolog/img/srk-bg.jpg) 0 0/100% 100% no-repeat;
+  background-color: #fdfdfd;
+}
+@media (max-width: 767px) {
+  .srk {
+      background: radial-gradient(1004.19% 2293.89% at 21.04% 64.84%, #f0ad60 0%, #ecaa5b 97.92%);
+      min-height: 815px;
+  }
+}
+
+.first__block-descr-rec {
+  height: fit-content;
+  background: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 18px 34px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #313131;
+  visibility: hidden;
+  width: 95%;
+}
+.first__block-descr-rec ul li {
+  list-style-type: none;
+}
+.first__block-descr-rec ul li a {
+  color: #313131;
+  text-decoration: none;
+  font-size: 18px;
+}
+.first__block-descr-rec-active {
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .first__block-descr-rec ul li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .first__block-descr-rec ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first__block-descr-rec ul li a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first__block-descr-rec {
+    margin: 0 auto;
+    z-index: 1;
+  }
+}
+
+.first__block-descr2 {
+  width: 95% !important;
+}
+
+@media screen and (min-width: 768px) {
+  .first__block-descr-rec2 {
+    margin: 0;
+  }
+}
+.first__block-descr {
+  cursor: pointer;
+}
+
+
+.first__block-stamp {
+  top: -25% !important;
+}
+.first__block-right-srk .first__block-stamp {
+  top: -20% !important;
+}
+
+@media (min-width:1400px){
+  .first__block-right {
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 1400px){
+  .first__block-right-probio {
+      right: 4%;
+      width: 31%;
+      top: 33%;
+  }
+}
+
+.first__block-descr{
+  margin-top: 35px !important;
+}
+
+.diagramm {
+  min-height: 444px;
+  padding: 0 0 220px 0;
+  background: #fdfdfd;
+}
+.diagramm__descr {
+  font-weight: 500;
+  font-size: 20px;
+  color: #5a5858;
+  margin-bottom: 32px;
+}
+.diagramm-strong {
+  font-weight: 700;
+}
+.diagramm__wrapp {
+  background: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 39px 68px 26px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 80px;
+}
+.diagramm_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.diagramm__title {
+  padding: 26px 33px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #5a5858;
+  border: 1px solid #f17922;
+  margin-bottom: 23px;
+  margin-left: 180px;
+}
+.diagramm__img-left {
+  width: 100%;
+}
+.diagramm__img-right {
+  width: 100%;
+}
+@media (max-width: 1700px) {
+  .diagramm_right {
+      width: 30%;
+  }
+  .diagramm_left {
+      width: 57%;
+  }
+}
+@media (max-width: 991px) {
+  .diagramm {
+      padding-bottom: 100px;
+  }
+  .diagramm__descr {
+      font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .diagramm__title {
+      padding: 4px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .diagramm__title {
+      margin-left: 0;
+  }
+  .diagramm__wrapp {
+      margin: 0 auto;
+      width: 75%;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 10px 15px 10px;
+  }
+  .diagramm_left {
+      width: 100%;
+      margin-bottom: 40px;
+  }
+  .diagramm_right {
+      width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  .diagramm {
+      padding-bottom: 80px;
+  }
+  .diagramm__descr {
+      margin-bottom: 20px;
+  }
+  .diagramm__wrapp {
+      width: 90%;
+      margin-top: 50px;
+  }
+}
+@media (min-width:426px){
+  .diagramm{
+    padding-bottom: 90px !important;
+  }
+  .act{
+    padding-bottom: 90px !important;
+  }
+}
+@media (max-width: 500px){
+  .diagramm{
+    padding-bottom: 50px !important;
+  }
+  .diagramm__descr{
+    margin-bottom: 0px !important;
+  }
+  .act{
+    padding-bottom: 50px !important;
+  }
+  .act_left:after{
+        top: 48% !important;
+  }
+  .act_right{
+        margin-top: 30px !important;
+  }
+}
+
+.act {
+  min-height: 578px;
+  padding: 0 0 220px 0;
+  background: #fdfdfd;
+}
+.act__wrapp {
+  display: flex;
+  background: #fff;
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+  width: 1208px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  position: relative;
+}
+.act_left {
+  display: flex;
+  flex-direction: column;
+}
+.act_left-head {
+  background: linear-gradient(94.81deg, #f17922 0%, #f7a318 100%);
+  padding: 30px 367px 30px 90px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 5px 0 0 0;
+}
+.act_right {
+  display: flex;
+  flex-direction: column;
+}
+.act_right-head {
+  background: #5a5858;
+  padding: 30px 210px 30px 90px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 0 5px 0 0;
+}
+.act_text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #5a5858;
+  margin-bottom: 60px;
+}
+.act_text:last-child {
+  margin-bottom: 0;
+}
+.act_text-left:after {
+  content: "\2192";
+  font-size: 25px;
+  color: #b8b8b8;
+  position: absolute;
+  right: 50%;
+  transform: translateY(-20%);
+}
+.act_down {
+  padding: 30px 90px;
+}
+@media (max-width: 1300px) {
+  .act__wrapp {
+      width: 100%;
+  }
+  .act_left {
+      width: 49%;
+  }
+  .act_left-head {
+      padding-right: 10px;
+  }
+  .act_right {
+      width: 51%;
+  }
+  .act_right-head {
+      padding-right: 10px;
+  }
+  .act_down {
+      padding: 30px 62px;
+  }
+}
+@media (max-width: 1199px) {
+  .act_text {
+      font-size: 15px;
+  }
+  .act_down {
+      padding: 30px 54px;
+  }
+}
+@media (max-width: 991px) {
+  .act {
+      min-height: 367px;
+      padding-bottom: 100px;
+  }
+  .act_right-head {
+      font-size: 18px;
+  }
+  .act_left-head {
+      font-size: 18px;
+  }
+  .act_text {
+      font-size: 13px;
+      margin-bottom: 30px;
+  }
+  .act_text-left {
+      margin-bottom: 30px;
+  }
+  .act_down {
+      padding: 30px 29px;
+  }
+}
+@media (max-width: 767px) {
+  .act__wrapp {
+      flex-direction: column;
+      background: none;
+      position: relative;
+  }
+  .act_left {
+      width: 100%;
+      background: #fff;
+      border-radius: 5px;
+      margin-bottom: 45px;
+  }
+  .act_left-head {
+      text-align: center;
+      border-radius: 5px 5px 0 0;
+      padding: 30px 5px 30px 5px;
+  }
+  .act_left:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 46%;
+      width: 35px;
+      height: 48px;
+      margin: 25px 0;
+      transform: translate(-50%, -50%);
+      background: url(/bitrix/templates/probiolog/icons/arrow-srk.svg) no-repeat;
+  }
+  .act_right {
+      width: 100%;
+      background: #fff;
+      border-radius: 5px;
+      margin-top: 60px;
+  }
+  .act_right-head {
+      text-align: center;
+      border-radius: 5px 5px 0 0;
+      padding: 30px 5px 30px 5px;
+  }
+  .act_text {
+      font-size: 15px;
+      text-align: center;
+  }
+  .act_text-left:after {
+      display: none;
+  }
+}

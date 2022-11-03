@@ -51,7 +51,6 @@
     </div>
 </footer>
 
-<script src="/bitrix/templates/probiolog_rf/js/swiper.min.js"></script>
 <!-- cookies -->
 <style>
   .cookies {
