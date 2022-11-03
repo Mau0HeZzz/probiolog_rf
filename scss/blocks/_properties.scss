@@ -1,0 +1,210 @@
+.properties {
+    min-height: 668px;
+    padding: 143px 0 220px 0;
+    background: #FDFDFD;
+    &-link {
+        margin-bottom: 72px;
+        font-weight: 500;
+        font-size: 20px;
+        display: block;
+        color: #F17922;
+        &:hover {
+            text-decoration: none;
+            color: #F17922;
+        }
+        &:after {
+                content: "\2192"; /* стрелка вправо */
+                font-size: 25px; 
+                color: #F17922;
+                margin-left: 10px;
+                   
+        }
+        &_probio {
+            margin-bottom: 25px;
+            line-height: 86%;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__wrapp {
+        display: flex;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+
+    }
+    &-left {
+        position: relative;
+        background: #FFB38A;
+        padding: 71px 131px;
+        border-radius: 5px 0px 0px 5px;
+
+        &__button {
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media (max-width: 576px) {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                margin: 10px auto 0;
+                transform: none;
+            }
+        }
+    }
+    &-right {
+        background: #FFFFFF;
+        border-radius: 5px;
+        //padding: 49px 242px 89px 86px;
+        padding: 49px 86px 89px;
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 26px;
+        color: #5A5858;
+        margin-bottom: 25px;
+    }
+    ul {
+
+    }
+    li {
+        font-weight: 500;
+        font-size: 20px;
+        color: #7C7C7C;
+        margin-bottom: 12px;
+        
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        color: #5A5858;
+        margin-bottom: 32px;
+    }
+    &-strong {
+        font-weight: 700;
+    }
+}
+
+
+@media(max-width:1600px){
+    .properties {
+        &-right {
+            padding: 49px 100px 49px 86px;
+        }
+    }
+}
+@media(max-width:1199px){
+    .properties {
+        padding-top: 100px;
+        &-right {
+            padding: 49px 25px 49px 30px;
+        }
+        &-left {
+            padding: 71px 60px;
+        }
+    }
+}
+
+
+
+@media(max-width:991px){
+    .properties {
+        &-link_probio {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+    }
+}
+@media(max-width:850px){
+    .properties {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:991px){
+    .properties {
+        padding-bottom: 100px;
+        &-link {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        &-left {
+            padding: 93px 41px;
+        }
+        li {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .properties {
+        padding-top: 0px;
+        &__wrapp {
+            box-shadow: none;
+            flex-direction: column;
+        }
+        &-left {
+            
+            border-radius: 0;
+            padding: 80px 198px;
+            // width: 100vw;
+            // margin-left: calc(-50vw + 50%);
+            // overflow-x: hidden;
+            margin: 0 -15px;
+            img {
+                width: 100%;
+            }
+        }
+        &-right {
+            background: none;
+            padding: 40px 18px 40px 20px;
+        }
+        &-link {
+            &-srk {
+                // position: absolute;
+                // color: black;
+                // font-weight: 700;
+                
+            }
+            
+        }
+    }
+}
+
+@media(max-width:630px){
+    .properties {
+        &-left {
+            padding: 50px 163px;
+        }
+    }
+}
+
+@media(max-width:575px){
+    .properties {
+        padding-bottom: 50px;
+        &-left {
+            padding: 81px 124px;
+        }
+        &-right {
+            padding: 30px 40px 30px 0px;
+        }
+    }
+}
+
+
+@media(max-width:470px){
+    .properties {
+        &-left {
+            padding: 50px 15px;
+
+            img {
+                display: block;
+                max-width: 270px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

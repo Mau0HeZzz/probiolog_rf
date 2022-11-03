@@ -1,0 +1,161 @@
+.accordion {
+    box-shadow: inset 0px -3px 2px rgba(0, 0, 0, 0.04);
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+    padding: 30px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: 600;
+    color: #545454;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+    &__content {
+        
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #5A5858;
+        &-left {
+            width: 30%;
+        }
+    }
+    &_question {
+        margin-bottom: 10px;
+    }
+    &__wrapp {
+        background: #FFFFFF;
+        border-radius: 25px;
+    }
+
+    &__right{
+        font-size: 16px;
+        color: #6F6F6F;
+        position: relative;
+        padding-right: 25px;
+
+        &:before{
+            position: absolute;
+            content: "";
+            background: url('/bitrix/templates/probiolog/icons/arrow-bottom.svg')no-repeat 50%;
+            background-size: contain;
+            width: 10px;
+            height: 6px;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: 0.3s
+        }
+    }
+
+    &-item{
+        border-radius: 25px;
+        box-shadow: -11px 11px 35px rgba(0, 0, 0, 0.04);
+        background: #FFFFFF;
+    }
+
+    &-active{
+        color: #156C79;
+        margin-bottom: 0;
+        transition: none;
+    }
+
+}
+.accordion-active .accordion__right::before{
+    transform: translateY(-50%) scale(1,-1);
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color:#fffdfa;
+    box-shadow: 3px 3px 20px #f7a318;
+}
+.panel {
+    width: 100%;
+    background: #FAFAFA;
+    padding: 50px 50px;
+    margin-bottom: 10px;
+    display: none;
+    overflow: hidden;
+    &_question {
+        padding: 30px 50px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+button:focus {
+    outline: none;
+}
+@media(max-width:1500px){
+    .accordion {
+        font-size: 20px;
+    }
+}
+
+
+
+@media(max-width:1199px){
+    .accordion {
+        height: 70px;
+        font-size: 16px;
+        &__right {
+            font-size: 14px;
+        }
+        &__content {
+            font-size: 16px;
+        }
+    }
+    
+}
+
+@media(max-width:991px){
+    .accordion {
+        &__content {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+    }
+    .panel {
+        padding: 15px 45px;
+    }
+}
+
+@media(max-width:767px){
+    .accordion {
+        padding: 5px 25px;
+        height: 60px;
+        font-size: 14px;
+        &__right {
+            font-size: 12px;
+            padding-right: 20px;
+            margin-left: 10px;
+        }
+        
+    }
+    .panel {
+        padding: 15px 26px;
+    }
+    .active, .accordion:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.09);
+    }
+}
+
+@media(max-width:575px){
+    .accordion {
+        font-size: 12px;
+        height: 82px;
+        &__content-left {
+            width: 70%;
+        }
+    }
+
+}

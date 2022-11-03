@@ -1,0 +1,187 @@
+.act {
+    min-height: 578px;
+    padding: 0 0 220px 0;
+    background: #FDFDFD;
+    &__wrapp {
+        display: flex;
+        background: #FFFFFF;
+        filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+        width: 1208px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        position: relative;
+        
+    }
+    &_left {
+        display: flex;
+        flex-direction: column;
+        
+        &-head {
+            background: linear-gradient(94.81deg, #F17922 0%, #F7A318 100%);
+            padding: 30px 367px 30px 90px;
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            border-radius: 5px 0 0 0;
+        }
+    }
+    &_right {
+        display: flex;
+        flex-direction: column;
+        &-head {
+            background: #5A5858;
+            padding: 30px 210px 30px 90px;
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            border-radius: 0 5px 0 0;
+        }
+        
+    }
+    &_text {
+        font-weight: 500;
+        font-size: 18px;
+        color: #5A5858;
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &-left {
+            &:after {
+                content: "\2192"; /* стрелка вправо */
+                font-size: 25px; 
+                color: #B8B8B8;
+                position: absolute;
+                right: 50%;
+                transform: translateY(-20%);   
+            }
+        }
+    }
+    &_down {
+        padding: 30px 90px;
+    }
+
+}
+
+@media(max-width:1300px){
+    .act {
+        &__wrapp {
+            width: 100%;
+        }
+        &_left {
+            width: 49%;
+            &-head {
+                padding-right: 10px;
+            }
+        }
+        &_right {
+            width: 51%;
+            &-head {
+                padding-right: 10px;
+            }
+
+        }
+        &_down {
+            padding: 30px 62px;
+        }
+    }
+}
+@media(max-width:1199px){
+    .act {
+        &_text {
+            font-size: 15px;
+        }
+        &_down {
+            padding: 30px 54px;
+        }
+    }
+}
+
+@media(max-width:991px){
+    .act {
+        min-height: 367px;
+        padding-bottom: 100px;
+        &_right {
+            &-head {
+                font-size: 18px;
+            }
+        }
+        &_left {
+            &-head {
+                font-size: 18px;
+            }
+        }
+        &_text {
+            font-size: 13px;
+            margin-bottom: 30px;
+            &-left {
+                margin-bottom: 30px;
+            }
+        }
+        &_down {
+            padding: 30px 29px;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .act {
+        &__wrapp {
+            flex-direction: column;
+            background: none;
+            position: relative;
+        }
+        &_left {
+            width: 100%;
+            background: #FFFFFF;
+            border-radius: 5px;
+            margin-bottom: 45px;
+            &-head {
+                text-align: center;
+                border-radius: 5px 5px 0 0;
+                padding: 30px 5px 30px 5px;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 46%;
+                width: 35px;
+                height: 48px;
+                margin: 25px 0;
+                transform: translate(-50%,-50%);
+                background: url(/bitrix/templates/probiolog/icons/arrow-srk.svg) no-repeat;
+            }
+        }
+        &_right {
+            width: 100%;
+            background: #FFFFFF;
+            border-radius: 5px;
+            margin-top: 60px;
+            &-head {
+                text-align: center;
+                border-radius: 5px 5px 0 0;
+                padding: 30px 5px 30px 5px;
+            }
+        }
+        &_text {
+            font-size: 15px;
+            text-align: center;
+            &-left {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        &_down {
+
+        }
+    }
+}
+
+@media(max-width:575px){
+    .act {
+       
+    }
+}

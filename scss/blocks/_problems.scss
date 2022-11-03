@@ -1,0 +1,230 @@
+.problems {
+    min-height: 994px;
+    padding: 0 0 220px 0;
+    //background: url(/bitrix/templates/probiolog/img/woman-main.png) center/100% no-repeat;
+    background-color:#FFF5F3;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        pointer-events: none;
+        //background: url(/bitrix/templates/probiolog/img/woman-main.png) center/100% no-repeat;
+    }
+
+    &.grayscale {
+
+        &::before {
+            filter: grayscale(1);
+            z-index: 0;
+            transition: all 5s ease 0s;
+        }
+    }  
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin: auto;
+        pointer-events: none;
+        transition: filter 5s ease 0s;
+        z-index: 0;
+
+        @media (max-width: 575px) {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150%;
+        }
+
+        @media (max-width: 500px) {
+            padding-top: 40px;
+        }
+    }
+
+    &.grayscale &__bg {
+        filter: grayscale(1);
+    }
+
+    &__centr {
+        position: absolute;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+        }
+    }
+    &__diarea {
+        position: absolute;
+        // right: 58%;
+        bottom: 40%;
+        right: 59%;
+        
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation{
+                transform: translate(5%, -120%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+            
+        }
+    }
+    &__vzd {
+        position: absolute;
+        // right: 46%;
+        // bottom: 48%;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation {
+                transform: translate(120%, -60%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+        }
+    }
+    &__pain {
+        position: absolute;
+        // bottom: 29%;
+        // right: 47%;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation {
+                transform: translate(120%, 60%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+        }
+    }
+    &__tosh {
+        position: absolute;
+        // bottom: 20%;
+        // right: 58%;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation {
+                transform: translate(10%, 130%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+        }
+        
+    }
+    &__meteo {
+        position: absolute;
+        // bottom: 29%;
+        // right: 69%;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation {
+                transform: translate(-110%, 60%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+        }
+    }
+    &__discom {
+        position: absolute;
+        // right: 69%;
+        // bottom: 48%;
+        bottom: 40%;
+        right: 59%;
+        &-img {
+            width: 100%;
+            opacity: 0;
+            &.with-animation {
+                transform: translate(-110%, -60%);
+                transition: all 3s ease 0s;
+                opacity: 1;
+            }
+        }
+    }
+    
+}
+
+
+
+
+@media (max-width: 1600px){
+    .problems {
+        &__centr {
+            right: 57%;
+        }
+    }
+}
+
+@media (max-width: 1400px){
+    .problems {
+        &__centr {
+            bottom: 39%;
+            right: 58%;
+        }
+        &__centr, &__diarea, &__vzd, &__pain, &__tosh, &__meteo, &__discom {
+            width: 12%;
+            
+        }
+    }
+}
+
+@media (max-width: 1199px){
+    .problems {
+        min-height: 720px;
+        padding: 0 0 100px 0;
+    }
+
+}
+
+@media (max-width: 991px){
+    .problems {
+        min-height: 491px;
+        padding: 0 0 100px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .problems {
+        min-height: 530px;
+        &__centr, &__diarea, &__vzd, &__pain, &__tosh, &__meteo, &__discom {
+            width: 14%;
+            
+        }
+    }
+}
+
+
+@media (max-width: 575px){
+    .problems {
+        min-height: 470px;
+        padding: 0 0 50px 0;
+        //background: url(/bitrix/templates/probiolog/img/woman-main.png) center/150% no-repeat;
+        &:before {
+            //background: url(/bitrix/templates/probiolog/img/woman-main.png) center/150% no-repeat;
+        }
+        &__centr, &__diarea, &__vzd, &__pain, &__tosh, &__meteo, &__discom {
+            width: 18%;
+            bottom: 38%;
+            right: 59%;
+            
+        }
+    }
+}

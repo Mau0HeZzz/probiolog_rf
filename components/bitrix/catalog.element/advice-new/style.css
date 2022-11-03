@@ -1,0 +1,7 @@
+.section_article_text h2.article_h2, .section_article_2_left h2.article_h2, .section_article_3 h2.article_h2 {
+    border-left: 2px solid green;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+}

@@ -1,0 +1,44 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 45px;
+    height: 45px;
+    img {
+        width: 100%;
+    }
+}
+@media(min-width: 1401px) and (max-width: 1600px) {
+    .pageup {
+        bottom: 110px;
+    }
+}
+@media(max-width:1400px){
+	.pageup{
+		bottom: 110px;
+   		right: 20px;
+	}
+}
+@media(max-width:991px){
+    .pageup {
+        bottom: 83px;
+        right: 20px;
+    }
+}
+@media(max-width:767px){
+    .pageup {
+        img {
+            display: none;
+        }
+        
+    }
+}
+@media(max-width:575px){
+    .pageup {
+        img {
+            display: none;
+        }
+        
+    }
+}

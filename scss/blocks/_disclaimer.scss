@@ -1,0 +1,14 @@
+.disclaimer {
+    position: relative;
+    background: #fff;
+    padding: 20px 0;
+    color: #6c6c6c;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 576px) {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,245 @@
+.header {
+    position: relative;
+    height: 97px;
+    &-min {
+        height: 50px;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        z-index: 5;
+        
+        
+    }
+    .nav {
+        background: linear-gradient(90.26deg, #FC5A2C 31.39%, #E6BD5D 99.86%);
+        &-srk {
+            background: #ECA85A;
+        }
+        &-probiolog {
+            background: #398F33;
+        }
+        &-forte {
+            background: linear-gradient(0deg, #A51920, #A51920), #398F33;
+        }
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 19px 0;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        width: 1336px;
+        
+        
+        a {
+            font-weight: 600;
+            font-size: 16px;
+            color: #FFFFFF;
+            
+            &:last-child {
+                margin-right: none;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .active-link {
+        border-bottom: solid 3px;
+    }
+    &__logo {
+        margin-right: 11px;
+        img {
+            width: 100%;
+        }
+    }
+    .hamburger {
+        display: none
+    }
+	
+    
+}
+.sticky {
+    background: linear-gradient(90.26deg, #FC5A2C 31.39%, #E6BD5D 99.86%);
+}
+
+@media(max-width:1199px){
+    .header {
+        .menu {
+            width: 1336px;
+            a {
+                font-size: 14px;
+            }
+        }
+        .navigation {
+            padding: 8px 0;
+        }
+        nav {
+            height: 70px;
+        }
+    }
+}
+
+@media(max-width:991px){
+    .header {
+        .menu {
+            a {
+                font-size: 10px;
+            }
+        }
+        .navigation {
+            padding: 10px 0;
+        }
+        nav {
+            //height: 50px;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .header {
+        .menu {
+            position: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: rgba(0,0,0,.8);
+            transition: 0.6s all;
+            &_active {
+                left: 0;
+            }
+			&_item {
+                display: flex;
+                padding-right: 0;
+                border: none;
+                margin: 10px 0;
+            }
+			a {
+                font-size: 20px;
+                
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+       
+        }
+        nav {
+            height: 50px;
+        }
+		
+	.hamburger {
+        display: block;
+		position: absolute;
+		right: 4%;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 30px;
+        height: 12px;
+        span {
+            display: block;
+			height: 2px;
+			width: 100%;
+			background-color: white;
+            transition: 0.5s all;
+            margin-bottom: 3px;
+        }
+        &_active {
+            span {
+                margin-bottom: -2px;
+                &:nth-child(1) {
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                    
+                &:nth-child(2) {
+                    display: none
+                }
+                    
+                &:nth-child(3) {
+                    transform: translateY(3px) rotate(45deg)
+                }
+            }
+        }
+    }
+    .navigation {
+        padding: 5px 0;
+    }
+    &__logo {
+        img {
+            width: 58%;
+        }
+    }
+    
+}
+}
+
+
+@media(max-width:575px){
+    .header {
+        height: 50px;
+
+        &__logo {
+            margin: 0;
+
+            img {
+                width: 89px;
+            }
+        }
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            height: 50px;
+        }
+
+        .menu {
+            width: 85%;
+            &_item {
+                width: 100%;
+                text-align: center;
+                padding: 5px 0;
+            }
+            &_link {
+                display: block;
+            }
+        }
+
+        /*&-where-buy {
+            position: relative;
+            bottom: auto;
+            right: auto;
+            display: block;
+            width: auto;
+            height: auto;
+            padding: 10px 20px;
+            font-size: 12px;
+        }*/
+
+        .hamburger {
+            position: relative;
+            right: auto;
+            top: auto;
+            transform: none;
+        }
+    }
+    .desctop-menu {
+        background: linear-gradient(90.26deg, rgb(252, 90, 44) 31.39%, rgb(230, 189, 93) 99.86%);
+    }
+}
+    
+
+
+		
+		
+		

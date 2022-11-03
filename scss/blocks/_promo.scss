@@ -1,0 +1,75 @@
+.promo {
+    min-height: 1139px;
+    padding: 0 0 80px 0;
+    background: url(/bitrix/templates/probiolog/img/header-bg.jpg) 0 0/100% no-repeat;
+    background-color:#FFF5F3;
+    position: relative;
+}
+
+.event-promo__block.white {
+    align-items: center;
+}
+
+.event-promo__close.white {
+    top: 40px;
+}
+
+.event-promo__image.white {
+    border: 5px solid #FC5B2C;
+    background: #fff;
+}
+
+.event-promo__discount.link {
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+
+    span {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media(max-width:1600px){
+    .promo {
+        min-height: 850px;
+    }
+}
+@media(max-width:1400px){
+    .promo {
+        padding-bottom: 0;
+    }
+}
+@media(max-width:1199px){
+    .promo {
+        min-height: 684px;
+    }
+}
+
+@media(max-width:991px){
+    .promo {
+        min-height: 553px;
+    }
+}
+
+@media(max-width:767px){
+    .promo {
+        min-height: 830px;
+    }
+
+    .event-promo__close.white {
+        top: 15px;
+    }
+
+    .event-promo__discount.link {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:575px){
+    .promo {
+        min-height: 758px;
+        background: none;
+        background-color:#FFF5F3;
+    }
+    
+}

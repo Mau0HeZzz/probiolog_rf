@@ -1,0 +1,20 @@
+.confid {
+    min-height: 15px;
+    padding: 0 0 20px 0;
+}
+.title_conf {
+    margin: 50px 0 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media(max-width:991px){
+    .title_conf {
+        margin: 0px 0 20px 0;
+    }
+}
+@media(max-width:768px){
+    .title_conf {
+        margin: 0 0 10px 0;
+    }
+}

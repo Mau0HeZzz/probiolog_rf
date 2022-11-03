@@ -1,0 +1,289 @@
+.discomfort {
+    min-height: 981px;
+    padding: 0 0 220px 0;
+    background-color:#FFF5F3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-item {
+        width: 494px;
+        height: 590px;
+        padding: 16px 51px 10px 29px;
+        &__up {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_1 {
+            background: url(/bitrix/templates/probiolog/img/balance-micro.png)  0 0/contain no-repeat;
+        }
+        &_2  {
+            background: url(/bitrix/templates/probiolog/img/ostr-problems.png)  0 0/contain no-repeat;
+        }
+        &_3 {
+            background: url(/bitrix/templates/probiolog/img/chronical-gkt.png)  0 0/contain no-repeat;
+            padding-bottom: 50px;
+        }
+    }
+    &__numbr {
+        font-weight: 500;
+        font-size: 140px;
+        color: #6BC594;
+        &-red {
+            color: #FF6962;
+        }
+        &-orange {
+            color: #FFB38A;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: right;
+        color: #6BC594;
+        &-red {
+            color: #FF6962;
+        }
+        &-orange {
+            color: #FFB38A;
+        }
+        &:after {
+            content: '';
+            display: block;
+            height: 4px;
+            background: #FFFFFF;
+            margin: 25px 0;
+            width: 100%;
+        }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-left: 21px;
+    }
+    ul {
+        padding-left: 19px;
+        line-height: 150%;
+    }
+    li {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+}
+@media (max-width:1800px){
+    .discomfort-item {
+        width: 452px;
+    }
+    .discomfort__title:after {
+        margin: 13px 0;
+    }
+}
+
+
+@media (max-width:1600px){
+    .discomfort {
+        min-height: 896px;
+        &__numbr {
+            font-size: 80px;
+        }
+        &__title {
+            font-size: 23px;
+        }
+        &-item {
+            width: 32%;
+            height: 457px;
+            &__up {
+                height: 130px;
+            }
+        }
+        &__img {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+@media (max-width:1400px){
+    .discomfort {
+        &__numbr {
+            font-size: 70px;
+        }
+        &__img {
+            width: 37%;
+        }
+        &-item {
+            height: 434px;
+            &__up {
+                height: 108px;
+            }
+            &_3 {
+                padding-bottom: 10px;
+            }
+        }
+        &__title {
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width:1199px){
+    .discomfort {
+        min-height: 650px;
+        padding: 0 0 50px 0;
+        &__numbr {
+            font-size: 60px;
+        }
+        &__img {
+            width: 30%;
+        }
+        &-item {
+            padding: 10px 30px 5px 10px;
+            height: 434px;
+        
+            &__up {
+                height: 18%;
+            }
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        
+    }
+        
+}
+
+@media (max-width:991px){
+    .discomfort {
+        min-height: 536px;
+        padding: 0 0 0px 0;
+        &__numbr {
+            font-size: 39px;
+        }
+        &__img {
+            width: 22%;
+        }
+        &-item {
+            
+            height: 361px;
+        
+            &__up {
+                height: 12%;
+            }
+        }
+        &__title {
+            font-size: 16px;
+            &:after {
+                height: 2px;
+                margin: 4px 0;
+            }
+            
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        li {
+            font-size: 15px;
+            line-height: 130%;
+        }
+        
+    }
+        
+}
+
+@media (max-width:767px){
+    .discomfort {
+        padding-bottom: 50px;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &-item {
+            width: 62%;
+            height: 525px;
+            margin-bottom: 30px;
+            &__up {
+                height: 20%;
+            }
+        }
+        &__img {
+            width: 25%;
+        }
+        &__title {
+            font-size: 25px;
+            &::after {
+                margin: 15px 0 15px 0;
+            }
+        }
+        &__numbr {
+            font-size: 66px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        li {
+            font-size: 16px;
+            line-height: 165%;
+        }
+    }
+}
+
+@media (max-width:640px){
+    .discomfort {
+        &-item {
+            height: 450px;
+        }
+    }
+}
+
+@media (max-width:550px){
+    .discomfort {
+        &-item {
+            height: 380px;
+            &__up {
+                height: 15%;
+            }
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__img {
+            width: 20%;
+        }
+        &__numbr {
+            font-size: 45px;
+        }
+        li {
+            font-size: 14px;
+            // line-height: 150%;
+        }
+    }
+}
+
+@media (max-width:460px){
+    .discomfort {
+        &-item {
+           width: 77%;
+           
+        }
+        
+    }
+}
+
+@media (max-width:400px){
+    .discomfort {
+        &-item {
+           width: 89%;
+        }
+    }
+}

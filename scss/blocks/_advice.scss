@@ -1,0 +1,291 @@
+.advice {
+    min-height: 1560px;
+    padding: 181px 0 220px 0;
+    background: #FFF5F3;
+    &__wrapper {
+        display: flex;
+        //justify-content: space-between;   // Если две карточки, то разъезжаются по сторонам
+        margin-bottom: 220px;
+    }
+
+
+    // добавлено
+    &-content {
+        margin-bottom: 220px;
+
+        @media (max-width: 1600px) {
+            margin-bottom: 11vw;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 75px;
+        }
+    }
+    &__wrapper {
+        margin: -28px -15px;
+
+        @media (max-width: 991px) {
+            margin: -20px -10px;
+        }
+    }
+    &-category {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -20px -20px 46px;
+
+        @media (max-width: 1199px) {
+            margin: -15px -15px 36px;
+        }
+
+        @media (max-width: 767px) {
+            margin: -10px -10px 20px;
+        }
+
+        &__item {
+            margin: 20px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #F7A318;
+
+            @media (max-width: 1199px) {
+                margin: 15px;
+                font-size: 22px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 767px) {
+                margin: 10px;
+                font-size: 18px;
+            }
+
+            &:hover,
+            &.selected {
+                color: #2CA85E;
+                text-decoration: underline;
+            }
+        }
+    }
+    &-item {
+        width: calc((100% / 3) - 30px);
+        margin: 28px 15px;    // потому что если на десктопе несколько рядов то между ними нет отступов
+
+        @media (max-width: 991px) {
+            width: calc(50% - 20px);
+            margin: 20px 10px;
+        }
+
+        &__caption {
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.2;
+            color: #3E3E3E;
+
+            @media (max-width: 1199px) {
+                font-size: 22px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 18px;
+            }
+        }
+
+        &__descr {
+            font-size: 20px;
+            line-height: 1.2;
+            color: #5A5858;
+
+            @media (max-width: 1199px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 16px;
+            }
+        }
+
+        &__more {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            background: transparent;
+            margin: 5px 0 0 auto;
+            padding: 10px;
+            color: #F7A318;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            transition: .3s;
+
+            &:hover {
+                background: #F7A318;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            &-svg {
+                margin-left: 15px;
+                stroke: #F7A318;
+                transition: .3s;
+            }
+
+            &:hover &-svg {
+                stroke: #fff;
+            }
+        }
+    }
+
+    &-load {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 82px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #313131;
+        transition: .3s;
+        cursor: pointer;
+
+        @media (max-width: 1199px) {
+            margin-top: 60px;
+        }
+
+        @media (max-width: 991px) {
+            margin-top: 40px;
+        }
+
+        @media (max-width: 767px) {
+            margin-top: 30px;
+        }
+
+        &:hover {
+            color: #F7A318;
+        }
+
+        &__svg {
+            fill: #313131;
+            stroke: #313131;
+            margin-left: 15px;
+            transition: .3s;
+        }
+
+        &:hover &__svg {
+            fill: #F7A318;
+            stroke: #F7A318;
+        }
+    }
+    // /добавлено
+
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        //width: 494px;           // лучше в процентах
+        //height: 510px;            // а если будет больше текста?
+        background: #fff;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        position: relative;
+        &__icon {
+            // display: flex;
+            // justify-content: flex-end;
+            position: absolute;
+            right: 5%;
+            bottom: 5%;
+           
+        }
+        &__descr {
+            //height: 100%;
+            //overflow-x:hidden;
+            //overflow-y:hidden;
+        }
+    }
+    &__down {
+        padding: 30px 20px 20px;
+    }
+    &__img {
+        width: 100%;
+    }
+    
+}
+
+
+//@media(max-width:1800px){
+//    .advice {
+//        &-item {
+//            width: 32%;
+//
+//        }
+//    }
+//}
+
+@media(max-width:1199px){
+    .advice {
+        padding-top: 100px;
+        min-height: 1445px;
+        &__down {
+            //height: 66%;
+
+        }
+        &-item {
+            //height: 467px;
+        }
+    }
+}
+
+@media(max-width:1199px){
+    .advice {
+        min-height: 1221px;
+
+        &__down {
+            padding: 30px 20px 20px;
+
+        }
+        &-item {
+            //height: 100%;
+            &__descr {
+                //height: 100px;
+            }
+        }
+        &__wrapper {
+            //margin-bottom: 100px;
+        }
+    }
+}
+
+@media(max-width:991px){
+    .advice {
+        min-height: 952px;
+        padding: 50px 0 100px 0;
+        
+    }
+}
+
+@media(max-width:575px){
+    .advice {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin: -10px;
+        }
+        &-item {
+            width: calc(100% - 20px);
+            margin: 10px;
+        }
+        &__down {
+            padding: 20px 15px 10px;
+        }
+    }
+}

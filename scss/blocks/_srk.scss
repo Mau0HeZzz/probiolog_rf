@@ -1,0 +1,67 @@
+.srk {
+    min-height: 932px;
+    background: url(/bitrix/templates/probiolog/img/srk-bg.jpg) 0 0/100% 100% no-repeat;
+    background-color: #FDFDFD;
+}
+
+
+
+@media(max-width:1800px){
+    .srk {
+        min-height: 867px;
+    }
+}
+@media(max-width:1600px){
+    .srk {
+        min-height: 660px;
+    }
+}
+
+@media(max-width:1500px){
+    .srk {
+        min-height: 675px;
+    }
+}
+@media(max-width:1400px){
+    .srk {
+        min-height: 677px;
+    }
+}
+@media(max-width:1300px){
+    .srk {
+        min-height: 588px;
+    }
+}
+
+
+@media(max-width:1199px){
+    .srk {
+        min-height: 476px;
+    }
+}
+
+@media(max-width:991px){
+    .srk {
+        min-height: 418px;
+    }
+}
+
+@media(max-width:767px){
+    .srk {
+        background: radial-gradient(1004.19% 2293.89% at 21.04% 64.84%, #F0AD60 0%, #ECAA5B 97.92%);
+        min-height: 815px;
+    }
+}
+
+@media(max-width:575px){
+    .srk {
+        min-height: 760px;
+    }
+}
+
+@media(max-width:480px){
+    .srk {
+        min-height: 700px;
+    }
+}
+

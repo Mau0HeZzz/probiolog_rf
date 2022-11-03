@@ -1,0 +1,57 @@
+.probiolog {
+    min-height: 932px;
+    background: url(/bitrix/templates/probiolog/img/probiolog-bg.jpg) 0 0/100% 100% no-repeat;
+    background-color: #FDFDFD;
+    
+}
+
+@media(max-width:1800px){
+    .probiolog {
+        min-height: 835px;
+    }
+}
+
+@media(max-width:1700px){
+    .probiolog {
+        min-height: 780px;
+    }
+}
+
+
+
+@media(max-width:1400px){
+    .probiolog {
+        min-height: 616px;
+    }
+}
+
+@media(max-width:1199px){
+    .probiolog {
+        min-height: 491px;
+    }
+}
+
+@media(max-width:991px){
+    .probiolog {
+        min-height: 406px;
+    }
+}
+
+@media(max-width:767px){
+    .probiolog {
+        background: radial-gradient(85.38% 57.46% at 43.85% 72.16%, #73B423 0%, #6DB223 15.55%, #66AC25 29.96%, #5EA626 47.62%, #57A22B 61.52%, #4C9A2C 74.12%, #41912E 85.27%, #398F33 100%);
+        min-height: 815px;
+    }
+}
+
+@media(max-width:575px){
+    .probiolog {
+        min-height: 760px;
+    }
+}
+
+@media(max-width:480px){
+    .probiolog {
+        min-height: 700px;
+    }
+}

@@ -1,0 +1,132 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+//@import 'libs/slick';
+@import 'libs/swiper';
+@import 'blocks/em-modal';
+@import 'libs/animate';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+.container {
+    width: 1540px;
+    margin: 0 auto;
+}
+@media (max-width:1800px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:1600px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1300px){
+	.container{
+		width: 100%;
+		padding: 0 30px
+	}
+}
+@media(max-width:991px){
+	.container{
+		width: 100%;
+		padding: 0 15px
+	}
+}  
+
+.where-buy {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 100px;
+    right: 50px;
+    width: 151px;
+    height: 51px;
+    background: linear-gradient(92.34deg, #2CA85E 0%, #1DD367 62.34%);
+    background-size: 100%;
+    padding: 0 43px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 3px 8px rgba(83, 83, 83, 0.25);
+    border-radius: 50px;
+    transition: .5s;
+
+    @media (max-width: 576px) {
+        display: none;
+        bottom: 14px;
+        right: 10px;
+    }
+
+    &:hover {
+        background-size: 200%;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.b-lazy {
+    -webkit-transition: opacity 300ms ease-in-out;
+    -moz-transition: opacity 300ms ease-in-out;
+    -o-transition: opacity 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+    opacity: 0;
+}
+
+.b-lazy.b-loaded {
+    opacity: 1;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/footer';
+@import 'blocks/footer__line';
+@import 'blocks/buy';
+@import 'blocks/accordion';
+@import 'blocks/info';
+@import 'blocks/question';
+@import 'blocks/advice';
+@import 'blocks/catalog';
+@import 'blocks/slider';
+@import 'blocks/problems';
+@import 'blocks/_discomfort';
+@import 'blocks/_first__block';
+@import 'blocks/products';
+@import 'blocks/scheme';
+@import 'blocks/_carousel';
+@import 'blocks/_feedback';
+@import 'blocks/_forms';
+@import 'blocks/basket';
+@import 'blocks/pageup';
+@import 'blocks/_srk';
+@import 'blocks/_properties';
+@import 'blocks/_diagramm';
+@import 'blocks/act';
+@import 'blocks/probiolog';
+@import 'blocks/probio';
+@import 'blocks/animation';
+@import 'blocks/diagrammprobio';
+@import 'blocks/forte';
+@import 'blocks/quiz';
+@import 'blocks/_modal';
+@import 'blocks/_confid';
+
+@import 'libs/mystyle';
+
+@import 'blocks/related';
+@import 'blocks/reviews';
+@import 'blocks/disclaimer';
+@import 'blocks/event';
+
+
+

@@ -1,0 +1,18 @@
+/* Error: "&" may only used at the beginning of a compound selector.
+ *     ,
+ * 146 |                     textarea&{
+ *     |                             ^
+ *     '
+ *   blocks/_em-modal.scss 146:29  @import
+ *   style.scss 4:9                root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: "&" may only used at the beginning of a compound selector.\a     \2577 \a 146 \2502                      textarea&{\d\a     \2502                              ^\a     \2575 \a   blocks/_em-modal.scss 146:29  @import\a   style.scss 4:9                root stylesheet';
+}

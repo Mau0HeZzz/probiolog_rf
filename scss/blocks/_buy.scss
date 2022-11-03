@@ -1,0 +1,218 @@
+.buy {
+    min-height: 2126px;
+    background:#FFF5F3;
+    padding: 181px 0 220px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        color: #2CA85E;
+        
+    }
+    &__online {
+        font-weight: 700;
+        font-size: 26px;
+        color: #8B8B8B;
+    }
+    &__items {
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        
+    }
+    &__item {
+        background-size: contain;
+        background: #FFFFFF;
+        border-radius: 25px;
+        width: 374px;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: 0.3s;
+        
+        &:hover {
+            .buy__img {
+                //opacity: 0;
+               }
+            .buy__img-hidden {
+                opacity: 1;
+            }
+        }
+        
+    }
+    &__itemm {
+        &-new {
+            position: relative;
+
+            &:hover .buy-mini-items {
+                display: flex;
+            }
+
+            &:hover .buy__img {
+                display: none;
+            }
+
+            &-event {
+                position: absolute;
+                top: -43px;
+                right: 11px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 131px;
+                height: 131px;
+                background: #E10000;
+                font-weight: bold;
+                line-height: 1.2;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #fff;
+                border-radius: 50%;
+
+                &-xl {
+                    font-size: 30.8px;
+                }
+
+                &-medium {
+                    font-size: 18.8px;
+                }
+
+                &-small {
+                    font-size: 8px;
+                }
+            }
+
+            &:hover &-event {
+                display: none;
+            }
+        }
+    }
+    &-mini {
+        &-item {
+            position: relative;
+
+            &-event {
+                position: absolute;
+                bottom: -43px;
+                left: -26px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 71px;
+                height: 71px;
+                background: #E10000;
+                font-weight: bold;
+                font-size: 8px;
+                line-height: 1.2;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #fff;
+                border-radius: 50%;
+                z-index: 1;
+
+                svg {
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+    &__img {
+      
+        
+        &-hidden {
+            position: absolute;
+            opacity: 0;
+           
+           
+        }
+        
+    }
+    &__pharmacy {
+        font-weight: 700;
+        font-size: 26px;
+        color: #8B8B8B;
+        margin-top: 110px;
+    }
+}
+
+@media(max-width:1700px){
+    .buy {
+        &__item {
+            width: 100%;
+        }
+        &__img {
+            width: 75%;
+        }
+        &__img-hidden {
+            width: 75%;
+        }
+    }
+}
+
+@media(max-width:1400px){
+    .buy {
+        min-height: 2067px;
+    }
+}
+
+
+@media(max-width:1199px){
+    .buy {
+        min-height: 1930px;
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:991px){
+    .buy {
+        min-height: 1400px;
+        padding: 50px 0 100px 0;
+        &__item {
+            height: 170px;
+        }
+        &__pharmacy {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .buy {
+        min-height: 1110px;
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &__item {
+            height: 190px;
+        }
+        &__img {
+            opacity: 0;
+            &-hidden {
+                opacity: 1;
+            }
+        }
+    }
+}
+@media(max-width:575px){
+    .buy {
+        
+        &__items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 290px;
+            margin-bottom: 10px;
+
+        }
+        
+    }
+}

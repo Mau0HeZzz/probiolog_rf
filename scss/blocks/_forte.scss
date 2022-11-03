@@ -1,0 +1,57 @@
+.forte {
+    min-height: 932px;
+    background: url(/bitrix/templates/probiolog/img/forte-bg.jpg) 0 0/100% 100% no-repeat;
+    background-color: #FDFDFD;
+    
+}
+
+@media(max-width:1800px){
+    .forte{
+        min-height: 835px;
+    }
+}
+
+@media(max-width:1700px){
+    .forte{
+        min-height: 780px;
+    }
+}
+
+
+
+@media(max-width:1400px){
+    .forte{
+        min-height: 616px;
+    }
+}
+
+@media(max-width:1199px){
+    .forte{
+        min-height: 491px;
+    }
+}
+
+@media(max-width:991px){
+    .forte{
+        min-height: 406px;
+    }
+}
+
+@media(max-width:767px){
+    .forte {
+        background: linear-gradient(251.93deg, #A61A20 26.82%, #F23C22 96.48%);
+         min-height: 815px;
+    }
+}
+
+@media(max-width:575px){
+    .forte {
+        min-height: 760px;
+    }
+}
+
+@media(max-width:480px){
+    .forte {
+        min-height: 720px;
+    }
+}

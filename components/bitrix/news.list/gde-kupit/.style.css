@@ -1,0 +1,90 @@
+.buy .buy__itemm-new {
+    width: 100%;
+}
+
+.buy .buy__items {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.buy__itemm-new:hover .buy-mini-items {
+    width: 100%;
+    padding: 0 16px;
+}
+
+.buy-mini-item .buy-mini-item-event {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    padding: 15px 13px;
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-imgs {
+    left: 0;
+    margin-right: 4px;
+    width: 70px;
+}
+
+@media(max-width: 1800px) {
+    .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-ps, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-pf, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-p {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-imgs {
+        width: 55px;
+        height: auto;
+        max-height: 45px;
+    }
+
+    .buy-mini-item .buy-mini-item-event {
+        padding: 11px 9px;
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .buy-mini-item .buy-mini-item-event {
+        padding: 11px 5px;
+        font-size: 7px;
+    }
+}
+
+@media(max-width: 500px) {
+    .buy__itemm-new:hover .buy-mini-items {
+        padding: 0 8px;
+    }
+
+    .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-ps, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-pf, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-p {
+        font-size: 14px;
+        margin-right: 3px;
+    }
+
+    .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-imgs {
+        width: 25px;
+        max-height: 20px;
+    }
+    .buy-mini-item .buy-mini-item-event {
+        padding: 7px 4px;
+        font-size: 6px;
+    }
+
+    img.buy-mini-item-vector {
+        width: 9px;
+    }
+
+    .buy-mini-items .buy-mini-item .buy-mini-item-a {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 350px) {
+    .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-ps, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-pf, .buy__itemm-new .buy-mini-items .buy-mini-item .buy-mini-item-p {
+        font-size: 11px;
+        margin-right: 3px;
+    }
+
+}
